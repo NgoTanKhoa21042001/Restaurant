@@ -10,6 +10,7 @@
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;
   --color-white: #ffffff;
+  --transition: 0.5s ease;
 }
 
 .slide-bottom {

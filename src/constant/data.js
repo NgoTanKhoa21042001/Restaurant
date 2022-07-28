@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-import images from "./image";
+import images from "./images";
 const wine = [
   {
     title: "Chapel Hill Shiraz",

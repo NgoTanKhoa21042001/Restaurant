@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import bg from "../assets/bg.png";
 import chef from "../assets/chef.png";
 import G from "../assets/G.png";
@@ -21,7 +22,7 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 
-export {
+export default {
   bg,
   chef,
   G,
