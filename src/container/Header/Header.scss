@@ -1,0 +1,44 @@
+.app__header {
+  background-color: var(--color-black);
+  position: relative;
+  &-h1 {
+    font-family: var(--font-base);
+    font-weight: 700;
+    font-size: 5.625rem;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    // max-width: 453px;
+    color: var(--color-golden);
+  }
+  &-hashtag {
+    position: absolute;
+    left: -6px;
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 14px;
+    color: white;
+    /* bottom: 72px; */
+    top: 43%;
+  }
+  &-slider {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    /* text-align: center; */
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app__header {
+    &-h1 {
+      font-size: 3.9rem;
+    }
+    &-hashtag {
+      display: none;
+    }
+  }
+}
